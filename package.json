@@ -7,10 +7,15 @@
     "build": "./node_modules/.bin/babel src --out-file index.js"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/TMowka/react-module-component.git"
   },
   "author": "Tim Golovchak",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TMowka/react-module-component/issues"
+  },
+  "homepage": "https://github.com/TMowka/react-module-component#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
