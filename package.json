@@ -1,0 +1,20 @@
+{
+  "name": "react-module-component",
+  "version": "1.0.0",
+  "description": "React module component",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Tim Golovchak",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
